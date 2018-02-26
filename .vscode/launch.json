@@ -8,11 +8,11 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "dotnet build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/fuzzify/bin/Debug/netcoreapp2.0/fuzzify.dll",
+            "program": "${workspaceFolder}/fuzzify/bin/Debug/netcoreapp2.0/Fuzzify.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/fuzzify",
+            "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,
