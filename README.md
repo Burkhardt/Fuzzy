@@ -37,7 +37,7 @@ cd fuzzify
 dotnet run -- <Arguments>
 ```
 
-Replace `<Arguments>` with the command-line parameters required by your application. For example:
+Replace `<Arguments>` with the command-line parameters supported:
 
 ```bash
 dotnet run -- -h
