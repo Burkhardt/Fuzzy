@@ -1,0 +1,35 @@
+## .gitignore for C#/.NET 8 projects using Visual Studio Code
+
+# Binaries and build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code directories
+.vscode/
+
+# Project files that might contain sensitive information
+*.csproj.user
+*.pubxml
+launchSettings.json
+
+# NuGet Packages Directory
+packages/
+
+# Store VSCode settings locally but ignore them in the project
+.vs/
+
+# ReSharper is a .NET coding add-in for Visual Studio
+_ReSharper*/
+*.[Rr]es[Ss]harper
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# macOS-specific ignore
+.DS_Store
